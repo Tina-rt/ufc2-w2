@@ -12,7 +12,7 @@
         </ul>
       </div>
       <div class="account flex items-center gap-2 ">
-        <font-awesome-icon icon="fa-solid fa-user-circle" size="lg" class="w-4 h-4"/>
+        <font-awesome-icon icon="fa-solid fa-user-circle" size="w-4 h-4"/>
         <span class="text-sm font-bold">Account</span>
       </div>
   </div>
