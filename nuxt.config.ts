@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       '@fortawesome/free-solid-svg-icons',
     ],
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
   css: ['@/assets/css/main.css'],
   devtools: { enabled: true }
 })

@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="img-container w-1/3">
-			<img :src="`_nuxt/assets/img/${props.step.image}`" alt="" />
+			<NuxtImg :src="`/img/${props.step.image}`" alt="" />
 		</div>
 	</div>
 </template>
