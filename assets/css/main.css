@@ -1,0 +1,30 @@
+
+
+@font-face {
+  font-family: "ChronicleDisplayRoman";
+  src: url("@/assets/fonts/ChronicleDisplayRoman.eot"); /* IE9 Compat Modes */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "GilRoy";
+  src: url("@/assets/fonts/Gilroy-Regular.ttf");
+}
+
+:root{
+  --accent-color: #FBD784;
+}
+
+html{
+    font-family: "GilRoy";
+    min-width: 100dvw;
+    background-color: #0B1D26;
+    overflow-x: hidden;
+    width: 100dvw;
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+}
+
+h1 {
+  font-family: "ChronicleDisplayRoman";
+}
